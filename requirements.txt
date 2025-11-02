@@ -1,0 +1,42 @@
+# === Core Frameworks ===
+torch>=2.1.0
+transformers>=4.37.0
+accelerate>=0.28.0
+datasets>=2.18.0
+
+# === Fine-Tuning & PEFT ===
+peft>=0.10.0
+bitsandbytes>=0.43.0
+sentencepiece>=0.2.0
+protobuf>=4.25.0
+
+# === RLHF Training (Reward Modeling / PPO) ===
+trl>=0.8.0
+
+# === Evaluation & Tracking ===
+evaluate>=0.4.1
+mlflow>=2.14.0
+scikit-learn>=1.4.0
+pandas>=2.2.0
+numpy>=1.26.0
+
+# === RAG & Knowledge Graph Integration ===
+langchain>=0.2.10
+neo4j>=5.15.0
+faiss-cpu>=1.8.0
+tiktoken>=0.6.0
+
+# === Utilities & Visualization ===
+jupyter>=1.0.0
+tqdm>=4.66.0
+matplotlib>=3.9.0
+seaborn>=0.13.0
+python-dotenv>=1.0.1
+
+# === Optional: Model Quantization & Compression ===
+auto-gptq>=0.7.0
+hqq>=0.1.7
+optimum>=1.17.0
+
+# === Security & Best Practices ===
+git-filter-repo>=2.45.0  # for maintaining clean history
